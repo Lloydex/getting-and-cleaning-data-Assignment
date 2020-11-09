@@ -10,10 +10,10 @@ Tidy data contains 180 rows and 68 columns. Each row has averaged variables for 
 
 ###Details of R script execution
 1. Reading data
-a.reading the train data
-b.reading test data
-c.reading features of the data
-d.reading activity labels
+  1.1.reading the train data
+  1.2.reading test data
+  1.3.reading features of the data
+  1.4.reading activity labels
 2. Merging the training and the test sets to create one data set.
 3. Extracting the measurements on the mean and standard deviation for each measurement.
 4. Useing descriptive activity names to name the activities in the data set
