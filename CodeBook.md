@@ -7,6 +7,19 @@ Tidy data contains 180 rows and 68 columns. Each row has averaged variables for 
 1. Download data from the link below and unzip it into working directory of R Studio.
 2. Execute the R script.
 
+
+###Details of R script execution
+1. Reading data
+  a.reading the train data
+  b.reading test data
+  c.reading features of the data
+  d.reading activity labels
+2. Merging the training and the test sets to create one data set.
+3. Extracting the measurements on the mean and standard deviation for each measurement.
+4. Useing descriptive activity names to name the activities in the data set
+5. Appropriately labeling the data set with descriptive variable names.
+6. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 ##the source of data
 The source data are from the Human Activity Recognition Using Smartphones Data Set. A full description is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -28,7 +41,7 @@ Activity column has 6 types as listed below.
 5. STANDING
 6. LAYING
 
-### The tidy data contains 6 rows (averaged based on activity) and 68 columns (66 variables and activity labels).
+### variables
 1. "activitylabel"
 2. "subject"
 3. "tBodyAcc-mean()-X"          
